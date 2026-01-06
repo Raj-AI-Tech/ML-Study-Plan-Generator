@@ -185,7 +185,7 @@ def render_sidebar():
     """Render the sidebar navigation"""
     with st.sidebar:
         st.image("https://img.icons8.com/clouds/200/000000/student-center.png", width=150)
-        st.title("🎓 ML Study Companion")
+        st.title("🎓 LearnZy")
         st.markdown("---")
 
         # Navigation
@@ -214,7 +214,7 @@ def render_sidebar():
             st.metric("Completed", completed)
 
         st.markdown("---")
-        st.caption("Built with ❤️ for students")
+        st.caption("Your Vision Is Our Destiny❤️")
 
 
 def render_create_plan_page():
@@ -772,4 +772,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
