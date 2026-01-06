@@ -184,7 +184,7 @@ def create_timeline_chart(plan):
 def render_sidebar():
     """Render the sidebar navigation"""
     with st.sidebar:
-        st.image("https://img.icons8.com/clouds/200/000000/student-center.png", width=150)
+        st.image("1000062984.png", width=150)
         st.title("🎓 LearnZy")
         st.markdown("---")
 
@@ -774,3 +774,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
