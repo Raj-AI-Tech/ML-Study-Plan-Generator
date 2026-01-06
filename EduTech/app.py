@@ -18,7 +18,7 @@ from study_plan_generator import (
 
 # Page configuration
 st.set_page_config(
-    page_title="ML Study Companion",
+    page_title="LearnZy",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -184,7 +184,7 @@ def create_timeline_chart(plan):
 def render_sidebar():
     """Render the sidebar navigation"""
     with st.sidebar:
-        st.image("https://img.icons8.com/clouds/200/000000/student-center.png", width=150)
+        st.image("https://drive.google.com/file/d/1l0jwo6SMEPZIWg0U2dn6SAf1aeVP4iV9/view?usp=sharing", width=150)
         st.title("🎓 LearnZy")
         st.markdown("---")
 
@@ -774,6 +774,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
